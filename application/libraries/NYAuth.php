@@ -5,7 +5,7 @@ class NYAuth {
     
     public function __construct()
     {
-        log_message('debug', "Session Class Initialized");
+        log_message('debug', "NYAuth Class Initialized");
         
 		$this->CI =& get_instance();
 		$this->CI->load->database();
